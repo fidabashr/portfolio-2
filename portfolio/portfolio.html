@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+    emailjs.init({
+    publicKey: "EGlWXAVEKEhzcltdD",
+    });
+    })();
+</script>
+<script src="portfolio.js"></script>
+</head>
+<body>
+   
+    <div class="nav"> 
+         <div class="logo">
+        <img src="logo.jpeg" width="40px" height="40px" ></div>
+        
+        <a href="#home">HOME</a>
+       <a href="#about">ABOUT</a>
+       <a href="#project">PROJECT</a>
+       <a href="#contact">CONTACT ME</a>
+       
+       
+
+    </div>
+
+    <h1>PORTFOLIO</h1>
+    <h3 class="name"><i>Fida Fathima P</i></h3>
+
+<br>
+<br>
+<br>
+<br>
+    <div id="home" class="pag2">
+        <img src="WhatsApp Image 2026-07-18 at 12.57.02.jpeg" alt="image" height="600px" >
+    
+    <h2>Hey,</h2>
+    <h3>I am</h3>
+    <h4><i>Fida Fathima P</i></h4>
+    <h5>DATA SCIENTIST</h5>
+    <br>
+    <br>
+    <br>
+    </div>
+   
+        <h3 id="about" class="abt">ABOUT ME</h3>
+
+   
+        <p>I am a technology enthusiast with a strong interest in data-driven problem solving and intelligent systems. With a solid foundation in computer applications and a commitment to continuous learning, I enjoy transforming complex challenges into practical solutions. I strive to build impactful, scalable, and innovative technologies while maintaining a focus on quality, efficiency, and continuous improvement.</p>
+   <div id="project" class="project">
+    <h1 class="prjct">MY PROJECTS</h1>
+    <p>Medizo is a smart hospital management system designed to address the challenges faced by patients, hospitals, and healthcare professionals in accessing, managing, and coordinating healthcare services efficiently. The system aims to provide a unified and reliable platform for viewing real-time doctor availability, accessing patient medical history, managing prescriptions, and streamlining hospital operations. By leveraging the Medizo platform, patients and healthcare providers
+can ensure smooth, secure, and convenient access to essential medical information from anywhere</p>
+   </div><div class="image">
+    <img src="medizo1.jpeg" width="300px" height="300px">
+    <img src="medizo2.jpeg" width="300px" height="300px">
+    <img src="medizo3.jpeg" width="300px" height="300px">
+    </div>
+    
+    <br>
+    <br>
+     <br><br> 
+    <div class="box">
+    <form>
+        <h3 id="contact" class="cnt">CONTACT DETAILS</h3>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+        <input type="email" id="email" name="email" placeholder="Enter your Email"><br>
+        <input type="text" id="subject" name="subject" placeholder="Subject"><br>
+        <textarea  id="message" rows="5" cols="30" placeholder="Message"></textarea><br>
+        <button type="button" onclick="sendMail()">Send Message</button><br>
+         </form>
+         </div>
+         <h6>Social Profiles:</h6>
+        <div  class="contact">
+        
+         <a href="https://www.linkedin.com/in/fidafathimap?utm_source=share_via&utm_content=profile&utm_medium=member_ios">
+        <img src="linkn.png"width="20px" height="20px"></a>
+        <a href="https://www.instagram.com/fida.bashr/#">
+        <img src="images.png"width="20px" height="20px"></a>
+        <br><br><br><br>
+        </div>
+   
+
+</body>
+</html>
